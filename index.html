@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV JUAN PEREZ</title>
+    <title>CV "JUAN PEREZ"</title>
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://unpkg.com/feather-icons"></script>
 
@@ -15,7 +15,7 @@
         <div class="datos">
             <div class="datos_contenedor">
                 <div class="datos_imagen">
-                    <img src="css/img/foto.jpg" alt="foto del postulante">
+                    <img src="css/img/foto1.jpeg" alt="foto del postulante">
                 </div>
                 <div>
                     <h1 class="datos_nomb">
@@ -64,6 +64,24 @@
                     <p class="subdesc">Lorem ipsum dolor sit.</p>
                 </div>
             </div>
+            <div class="interes">
+                <h3 class="titulo">intereses</h3>
+                <div class="int_its">
+                    <div class="int_it">
+                        <i data-feather="music"></i>
+                        <span>musica</span>
+                    </div>
+                    <div class="int_it">
+                        <i data-feather="book"></i>
+                        <span>leer</span>
+                    </div>
+                    <div class="int_it">
+                        <i data-feather="server"></i>
+                        <span>programacion</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
     
         <div class="barra_derecha">
@@ -93,24 +111,20 @@
                     <p class="descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt dolores, error, neque ducimus placeat repellat quod libero beatae alias, quam voluptate iste velit itaque optio minima voluptatem ad officiis nostrum?</p>   
                 </div>
             </div>
-            <div class="interes">
-                <h3 class="titulo">intereses</h3>
-                <div class="int_its">
-                    <div class="int_it">
-                        <i data-feather="music"></i>
-                        <span>musica</span>
-                    </div>
-                    <div class="int_it">
-                        <i data-feather="book"></i>
-                        <span>leer</span>
-                    </div>
-                    <div class="int_it">
-                        <i data-feather="server"></i>
-                        <span>programacion</span>
-                    </div>
-                </div>
+            <div>
+                <form action="index.html" method="post">
+                    <h3 class="titulo">contactame</h3>
+                    <label for="nombre" class="formulario_label">nombre y apellido</label>
+                    <input type="text" name="nombre_apellido" class="formulario_input">
+                    <label for="email" class="formulario_label">email</label>
+                    <input type="email" name="email" class="formulario_input">
+                    <label for="telefono" class="formulario_label">telefono contacto</label>
+                    <input type="number" name="telefono" class="formulario_input">
+                    <input type="submit" class="formulario_submit">
 
+                </form>
             </div>
+            
         </div>
 
                          
@@ -150,6 +164,7 @@
                     </a>
                 </div>
             </div>
+       
         </div>
     </div>
     <script>
@@ -157,5 +172,6 @@
         feather.replace()
         
     </script>
+    
 </body>
 </html>
