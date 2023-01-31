@@ -115,12 +115,13 @@
                 <form action= "https://leovulpara.github.io/github.io/" method="get">
                     <h3 class="titulo">contactame</h3>
                     <label for="nombre" class="formulario_label">nombre y apellido</label>
-                    <input type="text" name="nombre_apellido" class="formulario_input">
+                    <input type="text" name="nombre_apellido" id="nombre_apellido" class="formulario_input">
                     <label for="email" class="formulario_label">email</label>
-                    <input type="email" name="email" class="formulario_input">
+                    <input type="email" name="email" id="email" class="formulario_input">
                     <label for="telefono" class="formulario_label">telefono contacto</label>
-                    <input type="number" name="telefono" class="formulario_input">
-                    <input type="submit" class="formulario_submit">
+                    <input type="number" name="telefono" id="telefono" class="formulario_input">
+                    <!--<input type="submit" class="formulario_submit">-->
+                    <button type="button" onclick="captura()" class="formulario_submit">ENVIAR</button>
 
                 </form>
             </div>
@@ -172,6 +173,7 @@
         feather.replace()
         
     </script>
+    <script tipe="text/javascript" src="form.js"></script>
     
 </body>
 </html>
