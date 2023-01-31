@@ -242,19 +242,7 @@ hr{
    border: none;
    border-top: 2px solid rgb(13, 65, 143)
 }
-@media only screen and (max-width: 768px){
-    margin: 0 auto;
-}
 
-.formulario{
-    width: 500px;
-    max-width: 100%;
-    margin: auto;
-    margin-top: auto;
-    padding: 20px;
-    box-shadow: 0 0 20px rgba(56, 170, 40, 0.3);
-    position: relative;
-}
 .formulario_input, .formulario_label, .formulario_submit{
     display: block;
     width: 80%;
@@ -282,8 +270,5 @@ hr{
     color: black;
     padding: 10px 20px;
     cursor: pointer;
-}
-.fijar {
-    margin-top: -135px;
 }
 
