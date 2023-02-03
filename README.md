@@ -1,3 +1,5 @@
+comandos para subir a git hub
+
 gis
 echo "# cv" >> README.md
 git init
